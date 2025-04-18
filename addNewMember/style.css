@@ -189,3 +189,15 @@ th {
 th.size {
     width: 300px;
 }
+th.blank {
+    width: 200px;
+}
+tr {
+    height: 46px;
+}
+td {
+    border: 2px solid black;
+    padding: 5px 10px;
+    height: 35px;
+    white-space: nowrap;
+}
