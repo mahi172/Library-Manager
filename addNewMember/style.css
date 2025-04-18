@@ -139,8 +139,8 @@ nav ul li a:hover {
     border-left: 1px solid grey;
 }
 .content {
-    margin: 100px 0;
-    height: 280px;
+    margin-top: 100px;
+    height: 366px;
 }
 
 .form {
@@ -216,10 +216,15 @@ td {
     font-size: 18px;
     padding: 13px 24px;
     text-align: center;
-    margin-left: 120px;
+    margin-left: 112px;
+    margin-top: 20px;
     cursor: pointer;
     border-radius: 30px;
     border: 1px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+}
+textarea {
+    border-radius: 15px;
+    padding: 4px 4px;
+    width: 175px;
 }
