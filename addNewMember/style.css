@@ -57,6 +57,7 @@ nav ul li a:hover {
     text-align: center;
     cursor: pointer;
     border-right: 1px solid rgb(0, 0, 0);
+    border: 2px solid black;
     /* Optional: border between buttons */
     border-radius: 30px;
     font-size: 18px;
@@ -67,13 +68,22 @@ nav ul li a:hover {
 .barOne .add {
     background-color: #74ff74;
 }
+.barOne .add:hover {
+    background-color: #41fd41;
+}
 
 .barOne .del {
     background-color: #f66161;
 }
+.barOne .del:hover {
+    background-color: #fb4545;
+}
 
 .barOne .save {
     background-color: #5199ff;
+}
+.barOne .save:hover{
+    background-color: #2580ff;
 }
 
 .barOne {
@@ -97,6 +107,8 @@ nav ul li a:hover {
     float: right;
     cursor: pointer;
     border-right: 1px solid rgb(0, 0, 0);
+    border: 2px solid black;
+
     /* Optional: border between buttons */
     border-radius: 30px;
     font-size: 24px;
@@ -140,11 +152,11 @@ nav ul li a:hover {
 }
 .content {
     margin-top: 100px;
-    height: 366px;
+    height: 368px;
 }
 
 .form {
-    width: 295px;
+    width: 330px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
@@ -168,6 +180,7 @@ nav ul li a:hover {
 .form input {
     border-radius: 10px;
     padding: 4px 10px;
+    border: 2px solid black;
 }
 
 .table-container {
@@ -216,15 +229,24 @@ td {
     font-size: 18px;
     padding: 13px 24px;
     text-align: center;
-    margin-left: 112px;
+    margin-left: 130px;
     margin-top: 20px;
     cursor: pointer;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.back button:hover {
+    background-color: rgb(43, 43, 43);
 }
 textarea {
     border-radius: 15px;
     padding: 4px 4px;
     width: 175px;
+    border: 2px solid black;
+
+}
+.width input {
+    width: 162px;
+    text-align: center;
 }
