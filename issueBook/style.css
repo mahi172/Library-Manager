@@ -57,18 +57,28 @@ nav ul li a:hover {
     border-radius: 30px;
     font-size: 18px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid black;
 }
 
 .barOne .add {
     background-color: #74ff74;
 }
+.barOne .add:hover {
+    background-color: #41fd41;
+}
 
 .barOne .del {
     background-color: #f66161;
 }
+.barOne .del:hover {
+    background-color: #fb4545;
+}
 
 .barOne .save {
     background-color: #5199ff;
+}
+.barOne .save:hover{
+    background-color: #2580ff;
 }
 
 .barOne {
@@ -96,7 +106,7 @@ nav ul li a:hover {
     border-radius: 30px;
     font-size: 24px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    border: 2px solid black;
 }
 
 .one {
@@ -139,7 +149,7 @@ nav ul li a:hover {
 }
 
 .form {
-    width: 295px;
+    width: 310px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
@@ -147,7 +157,6 @@ nav ul li a:hover {
     border-radius: 30px;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .form div {
@@ -163,6 +172,7 @@ nav ul li a:hover {
 .form input {
     border-radius: 10px;
     padding: 4px 10px;
+    border: 2px solid black;
 }
 
 .table-container {
@@ -190,21 +200,26 @@ th {
     height: 35px;
     white-space: nowrap;
 }
+
 th.size {
     width: 300px;
 }
+
 th.blank {
     width: 200px;
 }
+
 tr {
     height: 46px;
 }
+
 td {
     border: 2px solid black;
     padding: 5px 10px;
     height: 35px;
     white-space: nowrap;
 }
+
 .back button {
     background-color: rgb(51, 51, 51);
     color: white;
@@ -214,9 +229,20 @@ td {
     margin-left: 120px;
     cursor: pointer;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.back button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
 textarea {
     border-radius: 15px;
+    border: 2px solid black;
+}
+
+.width input {
+    width: 162px;
+    text-align: center;
 }
