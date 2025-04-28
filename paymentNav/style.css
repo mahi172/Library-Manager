@@ -60,16 +60,18 @@ nav ul li a:hover {
     border: 2px solid black;
 }
 
-.add {
-    background-color: #74ff74;
+.left input { 
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
 }
-.add:hover {
-    background-color: #41fd41;
-}
+
 .barOne .save {
     background-color: #5199ff;
 }
-.barOne .save:hover{
+
+.barOne .save:hover {
     background-color: #2580ff;
 }
 
@@ -85,6 +87,7 @@ nav ul li a:hover {
 .barOne .right {
     float: right;
 }
+
 .table-container {
     width: 800px;
     /* show only till "Date of Birth" column */
@@ -110,15 +113,19 @@ th {
     height: 35px;
     white-space: nowrap;
 }
+
 th.size {
     width: 300px;
 }
+
 th.blank {
     width: 200px;
 }
+
 tr {
     height: 46px;
 }
+
 td {
     border: 2px solid black;
     padding: 5px 10px;
