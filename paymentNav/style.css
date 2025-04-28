@@ -60,7 +60,7 @@ nav ul li a:hover {
     border: 2px solid black;
 }
 
-.left input { 
+input { 
     padding: 8px 18px;
     margin-top: 8px;
     font-size: 18px;
@@ -70,7 +70,7 @@ nav ul li a:hover {
 
 }
 
-.left i {
+i {
     position: absolute;
     top: 122px;
     font-size: 18px;
@@ -78,6 +78,7 @@ nav ul li a:hover {
 }
 .barOne .del {
     background-color: #f66161;
+    float: right;
 }
 .barOne .del:hover {
     background-color: #fb4545;
@@ -95,14 +96,6 @@ nav ul li a:hover {
     height: 40px;
 }
 
-.barOne .left {
-    width: 362px;
-    float: left;
-}
-
-.barOne .right {
-    float: right;
-}
 
 .table-container {
     width: 800px;
