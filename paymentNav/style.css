@@ -61,18 +61,34 @@ nav ul li a:hover {
 }
 
 .left input { 
-    padding: 6px;
+    padding: 8px 18px;
     margin-top: 8px;
-    font-size: 17px;
+    font-size: 18px;
     border: none;
+    border-radius: 30px;
+    border: 2px solid black;
+
 }
 
-.barOne .save {
-    background-color: #5199ff;
+.left i {
+    position: absolute;
+    top: 122px;
+    font-size: 18px;
+    left: 370px;
+}
+.barOne .del {
+    background-color: #f66161;
+}
+.barOne .del:hover {
+    background-color: #fb4545;
+}
+.back {
+    background-color: rgb(51, 51, 51);
+    color: white;
 }
 
-.barOne .save:hover {
-    background-color: #2580ff;
+.back:hover {
+    background-color: rgb(43, 43, 43);
 }
 
 .barOne {
@@ -131,4 +147,7 @@ td {
     padding: 5px 10px;
     height: 35px;
     white-space: nowrap;
+}
+.ctr {
+    text-align: center;
 }

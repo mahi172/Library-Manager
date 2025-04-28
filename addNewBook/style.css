@@ -226,12 +226,6 @@ td {
     height: 35px;
     white-space: nowrap;
 }
-
-textarea {
-    border-radius: 15px;
-    border: 2px solid black;
-
-}
 .width input {
     width: 162px;
     text-align: center
