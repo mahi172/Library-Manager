@@ -91,24 +91,8 @@ nav ul li a:hover {
     background-color: #fb4545;
 }
 
-.barOne .save {
-    background-color: #5199ff;
-}
-.barOne .save:hover{
-    background-color: #2580ff;
-}
-
 .barOne {
     height: 40px;
-}
-
-.barOne .left {
-    width: 362px;
-    float: left;
-}
-
-.barOne .right {
-    float: right;
 }
 
 .barTwo {
