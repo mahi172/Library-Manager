@@ -49,7 +49,7 @@ nav ul li a:hover {
     transform: scale(1.25);
 }
 
-.barOne .button {
+.button {
     padding: 8px 18px;
     text-align: center;
     cursor: pointer;
@@ -59,14 +59,23 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid black;
 }
+.back {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.back:hover {
+    background-color: rgb(43, 43, 43);
+}
+.back:hover {
+    background-color: rgb(43, 43, 43);
+}
 
-.barOne .add {
+.add {
     background-color: #74ff74;
 }
-.barOne .add:hover {
+.add:hover {
     background-color: #41fd41;
 }
-
 .barOne .del {
     background-color: #f66161;
 }
@@ -144,8 +153,8 @@ nav ul li a:hover {
     border-left: 1px solid grey;
 }
 .content {
-    margin: 100px 0;
-    height: 280px;
+    margin: 100px 0 30px;
+    height: 352px;
 }
 
 .form {
@@ -157,6 +166,7 @@ nav ul li a:hover {
     border-radius: 30px;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 55px;
 }
 
 .form div {
@@ -245,4 +255,7 @@ textarea {
 .width input {
     width: 162px;
     text-align: center;
+}
+.mg-left {
+    margin-left: 108px;
 }

@@ -51,7 +51,7 @@ nav ul li a:hover {
     transform: scale(1.25);
 }
 
-.barOne .button {
+.button {
     background-color: white;
     padding: 8px 18px;
     text-align: center;
@@ -65,12 +65,24 @@ nav ul li a:hover {
 
 }
 
-.barOne .add {
+.back {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.back:hover {
+    background-color: rgb(43, 43, 43);
+}
+.back:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+.add {
     background-color: #74ff74;
 }
-.barOne .add:hover {
+.add:hover {
     background-color: #41fd41;
 }
+
 
 .barOne .del {
     background-color: #f66161;
@@ -151,8 +163,8 @@ nav ul li a:hover {
     border-left: 1px solid grey;
 }
 .content {
-    margin-top: 100px;
-    height: 368px;
+    margin: 100px 0 30px;
+    height: 366px;
 }
 
 .form {
@@ -223,22 +235,6 @@ td {
     height: 35px;
     white-space: nowrap;
 }
-.back button {
-    background-color: rgb(51, 51, 51);
-    color: white;
-    font-size: 18px;
-    padding: 13px 24px;
-    text-align: center;
-    margin-left: 130px;
-    margin-top: 20px;
-    cursor: pointer;
-    border-radius: 30px;
-    border: 2px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.back button:hover {
-    background-color: rgb(43, 43, 43);
-}
 textarea {
     border-radius: 15px;
     padding: 4px 4px;
@@ -249,4 +245,7 @@ textarea {
 .width input {
     width: 162px;
     text-align: center;
+}
+.mg-left {
+    margin-left: 108px;
 }
