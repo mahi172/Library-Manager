@@ -86,6 +86,7 @@ nav ul li a:hover {
 
 .barOne .del {
     background-color: #f66161;
+    float: right;
 }
 .barOne .del:hover {
     background-color: #fb4545;
